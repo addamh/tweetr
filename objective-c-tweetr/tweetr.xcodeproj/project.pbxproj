@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACCCA97E174B3008008FEEBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCCA97D174B3008008FEEBE /* UIKit.framework */; };
+		ACCCA980174B3008008FEEBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCCA97F174B3008008FEEBE /* Foundation.framework */; };
+		ACCCA982174B3008008FEEBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCCA981174B3008008FEEBE /* CoreGraphics.framework */; };
+		ACCCA988174B3008008FEEBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACCCA986174B3008008FEEBE /* InfoPlist.strings */; };
+		ACCCA98A174B3008008FEEBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCCA989174B3008008FEEBE /* main.m */; };
+		ACCCA98E174B3008008FEEBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCCA98D174B3008008FEEBE /* AppDelegate.m */; };
+		ACCCA990174B3008008FEEBE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCCA98F174B3008008FEEBE /* Default.png */; };
+		ACCCA992174B3008008FEEBE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCCA991174B3008008FEEBE /* Default@2x.png */; };
+		ACCCA994174B3008008FEEBE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCCA993174B3008008FEEBE /* Default-568h@2x.png */; };
+		ACCCA997174B3008008FEEBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCCA996174B3008008FEEBE /* ViewController.m */; };
+		ACCCA9A2174B34CF008FEEBE /* StatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCCA9A1174B34CF008FEEBE /* StatusCell.m */; };
+		ACCCA9A5174B360D008FEEBE /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCCA9A4174B360D008FEEBE /* Tweet.m */; };
+		ACCCA9A7174B42CD008FEEBE /* avatarPlaceHolder.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCCA9A6174B42CD008FEEBE /* avatarPlaceHolder.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACCCA97A174B3008008FEEBE /* tweetr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tweetr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCCA97D174B3008008FEEBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACCCA97F174B3008008FEEBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACCCA981174B3008008FEEBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACCCA985174B3008008FEEBE /* tweetr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tweetr-Info.plist"; sourceTree = "<group>"; };
+		ACCCA987174B3008008FEEBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACCCA989174B3008008FEEBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACCCA98B174B3008008FEEBE /* tweetr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tweetr-Prefix.pch"; sourceTree = "<group>"; };
+		ACCCA98C174B3008008FEEBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACCCA98D174B3008008FEEBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACCCA98F174B3008008FEEBE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ACCCA991174B3008008FEEBE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ACCCA993174B3008008FEEBE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ACCCA995174B3008008FEEBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACCCA996174B3008008FEEBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACCCA9A0174B34CF008FEEBE /* StatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusCell.h; sourceTree = "<group>"; };
+		ACCCA9A1174B34CF008FEEBE /* StatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusCell.m; sourceTree = "<group>"; };
+		ACCCA9A3174B360D008FEEBE /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		ACCCA9A4174B360D008FEEBE /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		ACCCA9A6174B42CD008FEEBE /* avatarPlaceHolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatarPlaceHolder.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACCCA977174B3008008FEEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCCA97E174B3008008FEEBE /* UIKit.framework in Frameworks */,
+				ACCCA980174B3008008FEEBE /* Foundation.framework in Frameworks */,
+				ACCCA982174B3008008FEEBE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACCCA971174B3008008FEEBE = {
+			isa = PBXGroup;
+			children = (
+				ACCCA983174B3008008FEEBE /* tweetr */,
+				ACCCA97C174B3008008FEEBE /* Frameworks */,
+				ACCCA97B174B3008008FEEBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACCCA97B174B3008008FEEBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACCCA97A174B3008008FEEBE /* tweetr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACCCA97C174B3008008FEEBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACCCA97D174B3008008FEEBE /* UIKit.framework */,
+				ACCCA97F174B3008008FEEBE /* Foundation.framework */,
+				ACCCA981174B3008008FEEBE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACCCA983174B3008008FEEBE /* tweetr */ = {
+			isa = PBXGroup;
+			children = (
+				ACCCA98C174B3008008FEEBE /* AppDelegate.h */,
+				ACCCA98D174B3008008FEEBE /* AppDelegate.m */,
+				ACCCA995174B3008008FEEBE /* ViewController.h */,
+				ACCCA996174B3008008FEEBE /* ViewController.m */,
+				ACCCA9A0174B34CF008FEEBE /* StatusCell.h */,
+				ACCCA9A1174B34CF008FEEBE /* StatusCell.m */,
+				ACCCA9A3174B360D008FEEBE /* Tweet.h */,
+				ACCCA9A4174B360D008FEEBE /* Tweet.m */,
+				ACCCA9A6174B42CD008FEEBE /* avatarPlaceHolder.png */,
+				ACCCA984174B3008008FEEBE /* Supporting Files */,
+			);
+			path = tweetr;
+			sourceTree = "<group>";
+		};
+		ACCCA984174B3008008FEEBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACCCA985174B3008008FEEBE /* tweetr-Info.plist */,
+				ACCCA986174B3008008FEEBE /* InfoPlist.strings */,
+				ACCCA989174B3008008FEEBE /* main.m */,
+				ACCCA98B174B3008008FEEBE /* tweetr-Prefix.pch */,
+				ACCCA98F174B3008008FEEBE /* Default.png */,
+				ACCCA991174B3008008FEEBE /* Default@2x.png */,
+				ACCCA993174B3008008FEEBE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACCCA979174B3008008FEEBE /* tweetr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACCCA99D174B3008008FEEBE /* Build configuration list for PBXNativeTarget "tweetr" */;
+			buildPhases = (
+				ACCCA976174B3008008FEEBE /* Sources */,
+				ACCCA977174B3008008FEEBE /* Frameworks */,
+				ACCCA978174B3008008FEEBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tweetr;
+			productName = tweetr;
+			productReference = ACCCA97A174B3008008FEEBE /* tweetr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACCCA972174B3008008FEEBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = ACCCA975174B3008008FEEBE /* Build configuration list for PBXProject "tweetr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACCCA971174B3008008FEEBE;
+			productRefGroup = ACCCA97B174B3008008FEEBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACCCA979174B3008008FEEBE /* tweetr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACCCA978174B3008008FEEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCCA988174B3008008FEEBE /* InfoPlist.strings in Resources */,
+				ACCCA990174B3008008FEEBE /* Default.png in Resources */,
+				ACCCA992174B3008008FEEBE /* Default@2x.png in Resources */,
+				ACCCA994174B3008008FEEBE /* Default-568h@2x.png in Resources */,
+				ACCCA9A7174B42CD008FEEBE /* avatarPlaceHolder.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACCCA976174B3008008FEEBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCCA98A174B3008008FEEBE /* main.m in Sources */,
+				ACCCA98E174B3008008FEEBE /* AppDelegate.m in Sources */,
+				ACCCA997174B3008008FEEBE /* ViewController.m in Sources */,
+				ACCCA9A2174B34CF008FEEBE /* StatusCell.m in Sources */,
+				ACCCA9A5174B360D008FEEBE /* Tweet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACCCA986174B3008008FEEBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACCCA987174B3008008FEEBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACCCA99B174B3008008FEEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACCCA99C174B3008008FEEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACCCA99E174B3008008FEEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tweetr/tweetr-Prefix.pch";
+				INFOPLIST_FILE = "tweetr/tweetr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACCCA99F174B3008008FEEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tweetr/tweetr-Prefix.pch";
+				INFOPLIST_FILE = "tweetr/tweetr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACCCA975174B3008008FEEBE /* Build configuration list for PBXProject "tweetr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACCCA99B174B3008008FEEBE /* Debug */,
+				ACCCA99C174B3008008FEEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACCCA99D174B3008008FEEBE /* Build configuration list for PBXNativeTarget "tweetr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACCCA99E174B3008008FEEBE /* Debug */,
+				ACCCA99F174B3008008FEEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACCCA972174B3008008FEEBE /* Project object */;
+}

@@ -1,7 +1,7 @@
 # Tweetr 
-## A simple app for a direct comparison between Objective-C/Xcode and RubyMotion
+ A simple app for a direct comparison between Objective-C/Xcode and RubyMotion
 
-![screen shot 2013-05-25 at 12 16 06 am](https://f.cloud.github.com/assets/489407/563643/6387a468-c4fa-11e2-96c8-8faa59c781fe.png)
+<img src="https://f.cloud.github.com/assets/489407/563643/6387a468-c4fa-11e2-96c8-8faa59c781fe.png" width=320>
 
 Sample app built for my presentation on RubyMotion on 21 May 2013 for bentonville.rb in Bentonville, AR.
 
